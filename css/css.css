@@ -1,0 +1,258 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+/* navigation bar */
+#navbar {
+    width: 100%;
+    background-color: #05203c;
+    height: 330px;
+}
+
+#navbardiv {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+#heading1 h2 {
+    margin: 0;
+    color: white;
+    /* Adjust this color as needed */
+}
+
+#menu {
+    align-items: center;
+    display: flex;
+}
+
+#menu ul {
+    display: flex;
+    align-items: center;
+}
+
+#menu ul li,
+#menu div {
+    margin-right: 20px;
+    color: white;
+}
+
+.checkbtn {
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+    display: block;
+}
+
+#checkbox {
+    display: none;
+}
+
+#menu ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    /* background-color: rgb(21, 21, 54); */
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+}
+
+.inputsection {
+    text-align: center;
+}
+
+.btn1 {
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.button1 {
+    width: 80px;
+    height: 25px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    border-radius: 6px;
+}
+
+.custom_size {
+    width: 80%;
+    height: 40px;
+    padding: 2px 25px;
+    border: 0px;
+}
+
+.custom_size1 {
+    width: 39.91%;
+    height: 40px;
+    padding: 2px 25px;
+}
+
+.custom_radius1 {
+    border-top-right-radius: 0.75rem;
+    border-top-left-radius: 0.75rem;
+    margin-bottom: 2px;
+    padding: 2px 25px;
+
+}
+
+.custom_radius2 {
+    position: relative;
+    border: 0px;
+    top: 1px;
+    border-bottom-left-radius: 0.75rem;
+    margin-right: -1px;
+}
+.custom_radius3 {
+    margin-left: -1px;
+    position: relative;
+    border: 0px;
+    top: 1px;
+    border-bottom-right-radius: 0.75rem;
+}
+
+.directflight {
+    color: white;
+    width: 80%;
+    margin: auto;
+    position: relative;
+    top: 10px;
+}
+
+.searchbtn {
+    width: 80%;
+    margin: auto;
+    position: relative;
+    top: 20px;
+}
+
+.search_btn {
+    width: 100%;
+    height: 40px;
+    border-radius: 0.75rem;
+    background: blue;
+    color: white;
+    font-size: 1.1rem;
+}
+
+.logo img {
+    width: 188px;
+    height: 56px;
+}
+
+.box1,
+.box2,
+.box3 {
+    padding: 12px 15px;
+    width: 32%;
+    height: 46px;
+    border: 0px;
+    border-radius: 10px;
+    color: white;
+    background: #05203c;
+    position: relative;
+    top: 50px;
+}
+
+.box {
+    display: flex;
+    margin: auto;
+    width: 80%;
+    height: 146px;
+    justify-content: space-between;
+}
+
+.box1 a,
+.box2 a,
+.box3 a {
+    margin-left: 10px;
+    color: white;
+}
+
+#languagebox {
+    background-size: cover;
+    margin: auto;
+    border-radius: 10px;
+}
+#languagebox div{
+    height: 440px;
+    display: table-cell;
+    vertical-align: middle;
+}
+.hindi, .languages, .btn2{
+    color: white;
+    position: relative;
+    left: 80px;
+}
+.hindi{
+    font-size: 3.5rem;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.languages{
+    top: 20px;
+}
+.btn2{
+    top: 50px;
+    color: black;
+    font-weight: bold;
+    width: 9.25rem;
+    height: 2.25rem;
+    border-radius: 7px;
+    border: 0px;
+}
+
+.themostpopularflightsrightnow{
+    position: relative;
+    top: 40px;
+    width: 80%;
+    margin: auto;
+}
+.threeboxflex{
+    position: relative;
+    top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.writtenpart{
+    margin-left: 20px;
+}
+.box-11{
+    width: 30%;
+    display: flex;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.flighthotelcarincityul {
+    list-style-type: none; /* Remove default list style */
+    display: flex;
+}
+
+.bullet-style {
+    list-style-type: disc;
+    margin-left: 30px; 
+}
+
+.flighthotelcarincityul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: blue; /* Set link color to blue */
+    font-weight: bold; /* Make the text bold */
+}
+
+.flighthotelcarincityul li a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+.box-11 img{
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
